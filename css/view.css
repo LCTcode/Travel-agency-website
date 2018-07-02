@@ -1,0 +1,47 @@
+.contentbg ,.content{
+    height: 1500px;
+}
+.content .content_left .left_top h3{
+    color: #666666;
+    font-size: 47px;
+    width: 822px;
+    height: 50px;
+    border: 0px solid red;
+    line-height: 50px;
+}
+.left_top hr{
+    border: 1px dashed #999999;
+}
+.content figure{
+    position: relative;
+    width: 380px;
+    height: 300px;
+    border: 1px solid #999999;
+    display: inline-block;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+figure img{
+    width: 380px;
+    vertical-align: middle;
+
+}
+figure figcaption{
+    color: #666666;
+    text-align: center;
+    width: 380px;
+    height: 50px;
+    line-height: 50px;
+}
+.more{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin: 25px auto;
+    cursor: pointer;
+}

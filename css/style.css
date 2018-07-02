@@ -1,0 +1,81 @@
+@charset "UTF-8";
+.searchbg{
+    width: 100%;
+    min-width: 1300px;
+    background: url("../img/search.jpg") no-repeat center;
+    height: 600px;
+    position: relative;
+}
+.searchbg input{
+    width: 360px;
+    height: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 1px;
+    margin: -20px 0 0 -260px;
+    border-radius: 4px;
+}
+.button{
+    width: 90px;
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 120px;
+    border-radius: 4px;
+}
+.contentbg{
+    width: 1300px;
+    height: 1180px;
+    /*background: aquamarine;*/
+    color: #666666;
+    padding-top:25px;
+    margin:0 auto;
+}
+.content h2{
+    text-align: center;
+    font-size: 45px;
+}
+.content p{
+    text-align: center;
+}
+.content figure{
+    position: relative;
+    text-align: center;
+    width: 380px;
+    border: 1px solid gray;
+    border-radius:5px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin: 12px;
+    padding: 4px;
+}
+.content figure img{
+    width: 380px;
+    vertical-align: middle;
+}
+.content figure figcaption{
+    line-height: 1.5;
+    text-align: left;
+}
+.set{
+    font-weight: normal;
+    float:right;
+    font-style: normal;
+    margin:6px;
+    color:#999;
+    font-size:13px;
+}
+.content span {
+    color:#f60;
+    font-size: 20px;
+
+}
+.type{
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    color: #ffffff;
+    background: green;
+}

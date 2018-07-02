@@ -1,0 +1,142 @@
+.content_left .left_top{
+    width:822px;
+    height: 50px;
+    background-color: #eeeeee;
+}
+.tour{
+    position: relative;
+    margin-top: 20px;
+    width: 822px;
+    height: 280px;
+    border: 1px solid gray;
+    color: #666666;
+}
+.tour .description{
+    float: right;
+    width: 380px;
+    height: 200px;
+    color: #666666;
+}
+.description h3{
+    color: #666666;
+    font-size: 30px;
+    margin: 5px 5px;
+    width: 250px;
+}
+.description p{
+    width: 250px;
+    color: #666666;
+    word-spacing: 5px;
+}
+.description .buy{
+    position: absolute;
+    top:120px;
+    right:0px;
+}
+.description ul li  {
+    font-size: 16px;
+    width:280px;
+    margin-top:10px;
+    height:20px;
+    line-height: 20px;
+    text-indent: -2px;
+}
+.description ul li mark  {
+    color:#458b00;
+    border:1px solid #458b00;
+    padding:2px;
+    background: #fff;
+    border-radius: 5px;
+}
+.description .price{
+    text-align: right;
+    margin: -60px -0px 30px 0;
+}
+.description .price s{
+    color: #666666;
+}
+.description .price ,strong{
+    color: #ff8800;
+}
+.description strong{
+    font-size: 30px;
+}
+.buy .reserve a{
+    display: block;
+    width:120px;
+    height:50px;
+    background: #f80;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    color:#fff;
+    font-size:20px;
+    margin:0 0 0 6px;
+    /*margin-top:10px;
+    margin-left: 5px;*/
+}
+.description mark{
+    color: green;
+    background-color:#ffffff;
+    border: 1px solid green;
+    padding: 1px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.description .buy_footer{
+    position: absolute;
+    width: 380px;
+    height: 28px;
+    line-height: 28px;
+    bottom: 2px;
+    text-align: center;
+    top: 130px;
+    right: 10px;
+}
+.description .buy_footer time {
+    color:#458b00;
+}
+.description .disc{
+    position: absolute;
+    width:52px;
+    height:52px;
+    background: url("../img/disc.png") no-repeat;
+    top: -120px;
+    left:80px;
+}
+.description .disc span{
+    display: block;
+    width: 52px;
+    height: 52px;
+    transform: rotate(45deg);
+    padding: 5px 0 0 0px;
+    color: #ff7a4d;
+    font-size: 14px;
+    text-indent: 4px;
+}
+.description .type{
+    position: absolute;
+    top:-120px;
+    color: #ffffff;
+    background-color: #458b00;
+    left: -690px;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.more{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #b9b9b9;
+    background-color: #fafafa;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-top:20px;
+}
